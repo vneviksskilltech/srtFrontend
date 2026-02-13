@@ -1,0 +1,97 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║              SHREE RAM TEXTILE ERP - QUICK START GUIDE               ║
+╚═══════════════════════════════════════════════════════════════════════╝
+GETTING STARTED (3 Simple Steps)
+═══════════════════════════════════════════════════════════════════════
+
+Step 1: Install Dependencies
+────────────────────────────
+Open terminal in this folder and run:
+    npm install
+
+Step 2: Start the Application
+──────────────────────────────
+    npm start
+
+Step 3: Open Browser
+────────────────────────
+    http://localhost:3000
+
+LOGIN
+═══════════════════════════════════════════════════════════════════════
+Email: any email (e.g., admin@example.com)
+Password: any password (e.g., password)
+
+WHAT'S INCLUDED
+═══════════════════════════════════════════════════════════════════════
+✓ Login Page
+✓ Dashboard with Charts & Statistics
+✓ User Management (Create, Edit, Delete)
+✓ Role & Permissions Management
+✓ Sales Orders (List & Detail View)
+✓ Work Orders Tracking
+✓ QC Monitoring
+✓ Fully Responsive Design
+✓ Role-based Sidebar Navigation
+✓ Beautiful UI with Tailwind CSS
+
+FEATURES
+═══════════════════════════════════════════════════════════════════════
+• Dynamic Charts (Bar, Pie, Line)
+• Status Badges & Priority Indicators
+• Modal Dialogs for CRUD Operations
+• Search & Filter Functionality
+• Collapsible Sidebar
+• Toggle Switches
+• Responsive Layout (Mobile/Tablet/Desktop)
+
+KEY FILES
+═══════════════════════════════════════════════════════════════════════
+src/
+├── pages/
+│   ├── Login.js              → Login screen
+│   ├── Dashboard.js          → Main dashboard
+│   ├── UserManagement.js     → Manage users
+│   ├── RolePermissions.js    → Manage roles
+│   ├── SalesOrders.js        → Sales orders list
+│   ├── SalesOrderDetails.js  → Order details
+│   ├── WorkOrders.js         → Work orders
+│   └── QCMonitoring.js       → QC monitoring
+└── components/
+    └── Layout.js             → Main layout & sidebar
+
+CUSTOMIZATION
+═══════════════════════════════════════════════════════════════════════
+To change brand colors:
+Edit: tailwind.config.js
+    
+    colors: {
+      brand: {
+        red: '#B91C1C',      ← Change this
+        darkRed: '#7F1D1D',  ← Change this
+      }
+    }
+
+COMMON COMMANDS
+═══════════════════════════════════════════════════════════════════════
+npm start              → Start development server
+npm run build          → Build for production
+npm test               → Run tests
+
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════════════
+Port already in use?
+    PORT=3001 npm start
+
+Dependencies issues?
+    rm -rf node_modules
+    npm install
+
+DOCUMENTATION
+═══════════════════════════════════════════════════════════════════════
+README.md                   → Full documentation
+SETUP_INSTRUCTIONS.md       → Detailed setup guide
+
+═══════════════════════════════════════════════════════════════════════
+         Built with React + Tailwind CSS for Shree Ram Textile
+═══════════════════════════════════════════════════════════════════════
