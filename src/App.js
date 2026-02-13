@@ -48,7 +48,7 @@ function App() {
           path="/login"
           element={
             isAuthenticated ? (
-              <Navigate to="/dashboard" />
+              <Navigate to="/" />
             ) : (
               <Login onLogin={handleLogin} />
             )
@@ -83,7 +83,7 @@ function App() {
                     element={<ProductionManagement />}
                   />
                   <Route path="/qc" element={<QCMonitoring />} />
-                  <Route path="/" element={<Navigate to="/dashboard" />} />
+                  <Route path="/" element={<Navigate to="/" />} />
                   <Route path="/activity-logs" element={<ActivityLogs />} />
                   <Route path="/feedback" element={<CustomerFeedback />} />
                   <Route path="/dispatch" element={<Dispatch />} />

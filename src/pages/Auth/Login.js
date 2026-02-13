@@ -14,7 +14,7 @@ const Login = ({ onLogin }) => {
     // Simple authentication - in production, validate against backend
     if (email && password) {
       onLogin();
-      navigate("/dashboard");
+      navigate("/");
     }
   };
 
